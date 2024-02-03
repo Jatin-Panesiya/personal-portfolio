@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: #14131a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.card__radius {
+  border: none;
+  border-radius: 54px 10px 0px 10px;
+}
+
+.img__radius {
+  border: none;
+  border-radius: 54px 10px 0px 0px;
+}
