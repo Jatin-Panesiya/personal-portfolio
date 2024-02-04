@@ -1,6 +1,7 @@
-import Header from "./components/Header"
+import Contact from "./components/Contact";
+import Header from "./components/Header";
 import Profile from "./components/Profile";
-import Projects from "./components/Projects"
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -8,8 +9,9 @@ function App() {
       <Header />
       <Profile />
       <Projects />
+      <Contact />
     </div>
   );
 }
 
-export default App
+export default App;

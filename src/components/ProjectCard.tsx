@@ -6,9 +6,9 @@ const ProjectCard = ({ link, img, title, tech, features }: projectCard) => {
       onClick={() => {
         window.open(link, "_blank");
       }}
-      className="w-full 620:w-[280px] min-h-72 rounded-xl bg-white text-black cursor-pointer hover:scale-105 transition-all duration-300 shadow-2xl shadow-btnBg/20 "
+      className="w-full 620:w-[310px] relative min-h-72 rounded-xl bg-white text-black cursor-pointer hover:scale-105 transition-all duration-300"
     >
-      <img src={img} alt="Omegle" className="w-full 620:h-40 rounded-t-xl" />
+      <img src={img} alt="Omegle" className="w-full 620:h-44 rounded-t-xl" />
       <div className="p-3">
         <p className="font-semibold text-lg pb-2">{title}</p>
         <span className="text-gray-600 text-[13px] flex flex-wrap">

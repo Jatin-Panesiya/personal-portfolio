@@ -21,7 +21,6 @@ export const projectData: projectCard[] = [
       "Mongoose",
       "Mantine",
       "jwt",
-      "React Router Dom",
     ],
     features: [
       "API integration",
@@ -30,7 +29,7 @@ export const projectData: projectCard[] = [
       "Authentication",
       "Admin Panel",
     ],
-    link: "https://omegle.nu",
+    link: "/",
     title: "IT Company Portfolio",
   },
 ];
