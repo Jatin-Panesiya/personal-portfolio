@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { Button } from "@mantine/core";
+import { FaSquareGithub } from "react-icons/fa6";
 
 const Contact = () => {
   return (
@@ -48,6 +49,9 @@ const Contact = () => {
               </a>
               <a href="mailto:epictechjatin@gmail.com" target="_blank">
                 <MdEmail />
+              </a>
+              <a href="https://github.com/Jatin-Panesiya" target="_blank">
+                <FaSquareGithub />
               </a>
             </div>
             <Button className="bg-btnBg text-black hover:bg-btnBg/90 text-sm 375:text-base font-semibold">
