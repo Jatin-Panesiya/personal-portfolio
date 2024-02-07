@@ -4,7 +4,7 @@ const Profile = () => {
       <div className="bg-[url('/blurBg.webp')] bg-no-repeat bg-cover rounded-xl">
         <div className="375:flex justify-center  375:justify-normal grid items-start py-7 rounded-xl bg-blur backdrop-filter backdrop-blur-md px-3 500:px-10">
           <img
-            src="/jatin.jpg"
+            src="/jatin.webp"
             alt="Jatin"
             className="rounded-full 375:mx-0 mx-auto w-20 h-20 450:w-28 450:h-28 p-1 bg-gradient-to-br from-btnBg via-green-500 to-blue-500"
           />
