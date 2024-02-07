@@ -3,7 +3,7 @@ import { projectCard } from "./interfaces";
 export const projectData: projectCard[] = [
   {
     id: 1,
-    img: "/omegle.png",
+    img: "/omegle.webp",
     tech: ["Next.js 14", "Tailwind Css", "Socket.io"],
     features: ["Random Video Call", "Responsive", "Multi Language"],
     link: "https://omegle.nu",
@@ -11,7 +11,7 @@ export const projectData: projectCard[] = [
   },
   {
     id: 2,
-    img: "/portfolio.jpg",
+    img: "/portfolio.webp",
     tech: [
       "React JS",
       "Typescript",

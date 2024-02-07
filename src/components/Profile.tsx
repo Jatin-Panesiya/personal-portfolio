@@ -1,7 +1,7 @@
 const Profile = () => {
   return (
     <div className="container">
-      <div className="bg-[url('/blurBg.jpg')] bg-no-repeat bg-cover rounded-xl">
+      <div className="bg-[url('/blurBg.webp')] bg-no-repeat bg-cover rounded-xl">
         <div className="375:flex justify-center  375:justify-normal grid items-start py-7 rounded-xl bg-blur backdrop-filter backdrop-blur-md px-3 500:px-10">
           <img
             src="/jatin.jpg"
