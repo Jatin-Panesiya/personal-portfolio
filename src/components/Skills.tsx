@@ -3,7 +3,7 @@ import CardHeading from "./CardHeading";
 
 const Skills = () => {
   return (
-    <div className="container my-10">
+    <div className="container">
       <CardHeading title="My Experties" />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-5">
         {skills.map((data, key) => (

@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="py-5">
       <div className="container">
         <CardHeading title="Projects" />
-        <div className="my-10 grid 620:grid-cols-2 900:grid-cols-3 1200:grid-cols-4 gap-5">
+        <div className="my-10 grid 700:grid-cols-2 1000:grid-cols-3 1300:grid-cols-4 gap-5">
           {projectData.map(({ link, img, title, tech, features }, index) => (
             <ProjectCard
               key={index}

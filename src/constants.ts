@@ -45,7 +45,7 @@ export const skills = [
       { name: "Next JS", color: "#000000" },
       { name: "Tailwind CSS", color: "#38B2AC" },
       { name: "Redux Tool Kit", color: "#764ABC" },
-      { name: "MUI", color: "#1572B6" },
+      { name: "MUI", color: "#000000" },
     ],
   },
   {
