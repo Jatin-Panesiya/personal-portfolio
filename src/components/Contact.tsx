@@ -8,7 +8,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 const Contact = () => {
   return (
-    <div className="container py-5 800:py-10">
+    <div className="container">
       <CardHeading title="Contact" />
       <div className="border my-10 py-6 relative border-btnBg shadow-md shadow-btnBg/40 max-w-[1000px] px-5 mx-auto rounded-xl">
         <img
@@ -36,7 +36,7 @@ const Contact = () => {
             </p>
           </div>
           <span className="750:mx-4">
-            <p className="text-gray-400">epictechjatin@gmail.com</p>
+            <p className="text-gray-400">jatinpanesiya2003@gmail.com</p>
             <div className="flex text-2xl text-gray-400 gap-3 py-4">
               <a
                 href="https://www.linkedin.com/in/jatin-panesiya/"
@@ -47,7 +47,7 @@ const Contact = () => {
               <a href="https://twitter.com/JatinPanes39422" target="_blank">
                 <FaSquareXTwitter />
               </a>
-              <a href="mailto:epictechjatin@gmail.com" target="_blank">
+              <a href="mailto:jatinpanesiya2003@gmail.com" target="_blank">
                 <MdEmail />
               </a>
               <a href="https://github.com/Jatin-Panesiya" target="_blank">
@@ -55,7 +55,7 @@ const Contact = () => {
               </a>
             </div>
             <Button className="bg-btnBg text-black hover:bg-btnBg/90 text-sm 375:text-base font-semibold">
-              <a href="mailto:epictechjatin@gmail.com" target="_blank">
+              <a href="mailto:jatinpanesiya2003@gmail.com" target="_blank">
                 Let's connect ✨
               </a>
             </Button>

@@ -1,4 +1,7 @@
 import { projectCard } from "./interfaces";
+import ReactJsCirtificate from "./assets/hackerRank_ReactJs.pdf";
+import ReactJsTraining from "./assets/ReactJs.pdf";
+import namasteJavascript from "./assets/javascript.webp";
 
 export const projectData: projectCard[] = [
   {
@@ -51,7 +54,7 @@ export const skills = [
   {
     category: "Back-end Development",
     skills: [
-      { name: "NodeJs", color: "#339933" },
+      { name: "Node JS", color: "#339933" },
       { name: "Express", color: "#333333" },
       { name: "MongoDB", color: "#4DB33D" },
       { name: "Jwt", color: "#764ABC" },
@@ -62,6 +65,22 @@ export const skills = [
     skills: [
       { name: "Github", color: "#fff" },
       { name: "Visual Studio Code", color: "#1572B6" },
+      { name: "Postman", color: "#FFA500" },
     ],
   },
 ];
+
+export const cirtification = [
+  {
+    title: "React Developer Exam by Hackerank",
+    link: ReactJsCirtificate,
+  },
+  {
+    title: "Training in React JS by TOPS Technology",
+    link: ReactJsTraining,
+  },
+  {
+    title: "Javascript Course by Akshay Saini",
+    link: namasteJavascript,
+  },
+];  

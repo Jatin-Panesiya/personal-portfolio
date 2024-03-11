@@ -12,7 +12,7 @@ const ProjectCard = ({ link, img, title, tech, features }: projectCard) => {
         src={img}
         loading="lazy"
         alt="Omegle"
-        className="w-full rounded-t-xl aspect-video"
+        className="w-full  rounded-t-xl  aspect-video"
       />
       <div className="p-3">
         <p className="font-semibold text-lg pb-2">{title}</p>

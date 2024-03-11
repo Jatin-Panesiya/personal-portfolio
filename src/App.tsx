@@ -1,3 +1,4 @@
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
@@ -11,6 +12,7 @@ function App() {
       <Profile />
       <Projects />
       <Skills />
+      <Certifications />
       <Contact />
     </div>
   );

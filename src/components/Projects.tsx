@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="py-5">
+    <div className="">
       <div className="container">
         <CardHeading title="Projects" />
         <div className="my-10 grid 700:grid-cols-2 1000:grid-cols-3 1300:grid-cols-4 gap-5">
