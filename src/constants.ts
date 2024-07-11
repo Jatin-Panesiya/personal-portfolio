@@ -32,8 +32,16 @@ export const projectData: projectCard[] = [
       "Authentication",
       "Admin Panel",
     ],
-    link: "/",
+    link: "https://www.nexasoftinfotech.com",
     title: "IT Company Portfolio",
+  },
+  {
+    id: 3,
+    img: "/ai.png",
+    tech: ["React JS", "Typescript", "Tailwind Css", "Mantine"],
+    features: ["API integration", "Responsive"],
+    link: "https://nps.mohap.ai/",
+    title: "AI based web application",
   },
 ];
 export const skills = [
@@ -83,4 +91,4 @@ export const cirtification = [
     title: "Javascript Course by Akshay Saini",
     link: namasteJavascript,
   },
-];  
+];

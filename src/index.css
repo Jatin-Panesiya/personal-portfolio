@@ -18,3 +18,45 @@ body {
   border: none;
   border-radius: 54px 10px 0px 0px;
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins-Medium.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url(assets/fonts/Poppins-Bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: "Poppins-regular";
+  src: url(assets/fonts/Poppins-Regular.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Merri-bold";
+  src: url(assets/fonts/MerriweatherSans-ExtraBold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "Merri-regular";
+  src: url(assets/fonts/MerriweatherSans-Bold.ttf) format("opentype");
+}
+.font-merri-regular {
+  font-family: "Merri-regular", sans-serif !important;
+}
+.font-merri-bold {
+  font-family: "Merri-bold", sans-serif !important;
+}
+.font-poppins-regular {
+  font-family: "Poppins-regular", sans-serif !important;
+}
+.font-poppins-bold {
+  font-family: "Poppins-bold", sans-serif !important;
+}
+.font-poppins-medium {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.shadowSpread {
+  box-shadow: 1px 0px 97px #64ffda29;
+}

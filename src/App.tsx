@@ -1,7 +1,7 @@
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
-import Profile from "./components/Profile";
+import HeroSection from "./components/HeroSection";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
       <Header />
-      <Profile />
+      <HeroSection />
+      {/* <Profile /> */}
       <Projects />
       <Skills />
       <Certifications />
