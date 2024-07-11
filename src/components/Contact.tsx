@@ -1,6 +1,5 @@
 import CardHeading from "./CardHeading";
 import { GoDotFill } from "react-icons/go";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { Button } from "@mantine/core";
@@ -44,9 +43,7 @@ const Contact = () => {
               >
                 <FaLinkedin />
               </a>
-              <a href="https://twitter.com/JatinPanes39422" target="_blank">
-                <FaSquareXTwitter />
-              </a>
+
               <a href="mailto:jatinpanesiya2003@gmail.com" target="_blank">
                 <MdEmail />
               </a>
