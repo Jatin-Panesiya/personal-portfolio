@@ -15,19 +15,15 @@ const HeroSection = () => {
           I’m a front-end developer with solid experience in creating and
           improving web applications using React.js, Next.js, and Tailwind CSS.
         </div>
-        <Button className="border border-btnBg h-12 rounded-full font-normal text-btnBg hover:bg-btnBg hover:text-black transition-all duration-150 mt-10">
-          <a
-            href="/Resume.pdf"
-            target="_blank"
-            className="flex items-center px-3"
-          >
+        <a href="Resume.pdf" target="_blank" className="flex items-center">
+          <Button className="border border-btnBg h-12 rounded-full font-normal text-btnBg hover:bg-btnBg hover:text-black transition-all duration-150 mt-10">
             Download CV <BsDownload size={17} className="ms-3 font-bold" />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
       <div className="max-[900px]:order-1">
         <img
-          src="jatin.webp"
+          src="pfp.jpg"
           className="max-w-[400px] max-h-[500px] h-full w-full rounded-[30px] object-cover border-[3px] max-[900px]:rotate-0  border-btnBg/40 hover:border-btnBg shadowSpread transition-all duration-300 rotate-[4deg] hover:rotate-0"
           alt="jatin"
         />
