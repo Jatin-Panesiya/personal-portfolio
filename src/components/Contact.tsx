@@ -16,7 +16,11 @@ const Contact = () => {
           className="absolute hidden 400:block right-0 top-0"
         />
         <span className="flex items-center">
-          <img src="/profileBg.svg" alt="Jatin" />
+          <img
+            src="/profilepic.jpg"
+            className="h-10 rounded-full mb-1.5 w-10"
+            alt="Jatin"
+          />
           <p className="py-2 -mt-2 border shadow-xl rounded-3xl text-xs 375:text-sm border-gray-500 px-3 ms-2 flex items-center gap-1.5">
             <GoDotFill className="text-green-500 " />
             Available for work
